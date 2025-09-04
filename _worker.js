@@ -5,8 +5,8 @@ import { connect } from "cloudflare:sockets";
 // Variables
 const rootDomain = "mlpapazola.workers.dev"; // Ganti dengan domain utama kalian
 const serviceName = "cloud"; // Ganti dengan nama workers kalian
-const apiKey = "BPuMRzxOQlayh7qeOlSZoaxo92x8FwyfmCjfMWkJ"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = "mlpapazola@gmail.com"; // Ganti dengan email yang kalian gunakan
+const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = ""; // Ganti dengan email yang kalian gunakan
 const accountID = "";
 const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
@@ -1712,4 +1712,5 @@ class Document {
 
     return this.html.replaceAll(/PLACEHOLDER_\w+/gim, "");
   }
+
 }
